@@ -1,0 +1,126 @@
+body{
+    margin: 0 auto;
+    width: 90%;
+    background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+p {
+    color: #2e2e2e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul > li{
+    display: inline-block;
+    font-weight: 600;
+}
+
+header ul > li + header ul > li{
+    margin-left: 8px;
+}
+
+header ul > li a {
+    color: #5f5fec;
+    text-decoration: none;
+}
+
+header ul > li a:hover{
+    opacity: 0.6;
+}
+
+header ul > li a:visited{
+    color: orange;
+}
+
+header > p{
+    font-weight: bold;
+}
+
+figure {
+    background-color: #e2e2e2;
+    margin: 0 auto;
+    width: 50%;
+    border-left: 5px dashed red;
+    padding: 80px 30px;
+}
+
+figure blockquote{
+    font-size: 160%;
+}
+
+blockquote,
+q{
+    font-style: italic;
+}
+
+header > h1{
+    background-color: yellow;
+}
+
+table  tr:nth-child(even){
+    background-color: grey;
+}
+
+table  tr:nth-child(odd){
+    background-color: white;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    clear: left;
+    margin-right: 25px;
+}
+
+.villagers{
+    border-left: 2px solid blue;
+}
+
+.farmer{
+    border-left: 2px solid purple;
+}
+
+.good,
+.bad {
+    text-transform: capitalize;
+}
+
+.good{
+    color: green;
+}
+
+.bad{
+    color: red;
+}
+
+.types-of-people > li:nth-child(1){
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Keller-5/main/1.Path/1.The_Field/1.4.HTML-CSS/assets/bien.png?token=GHSAT0AAAAAAB2ZO7PFD6BZDRMMCNRNLONSY3UYISQ");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px;
+    padding-right: 375px;
+}
+
+.types-of-people > li:nth-child(2){
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Keller-5/main/1.Path/1.The_Field/1.4.HTML-CSS/assets/mal.png?token=GHSAT0AAAAAAB2ZO7PFQ6ANXICA5R24FWD4Y3UYMDQ");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px;
+    padding-right: 375px;
+}
+
+.types-of-people > li:nth-child(3){
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Keller-5/main/1.Path/1.The_Field/1.4.HTML-CSS/assets/chat.png?token=GHSAT0AAAAAAB2ZO7PFWTUM7TLWQKKXC7GKY3UYPIQ");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px;
+    padding-right: 375px;
+}
